@@ -1,0 +1,245 @@
+.first {
+	height: 100vh;
+	min-height: 600px;
+	background-image: url("/img/header/header.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--white-color);
+
+	color: var(--white-color);
+}
+
+.first-container {
+	position: relative;
+	height: 100%;
+	padding-top: 230px;
+	padding-bottom: 200px;
+}
+
+.first__link {
+	background-color: rgb(28, 46, 62, 0.4);
+	font-weight: 800;
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+	padding: 15px 30px;
+	border-radius: 100px;
+}
+
+.first__link:hover {
+	color: var(--orange-color);
+}
+
+.first__title {
+	margin-top: 60px;
+	max-width: 40%;
+	font-size: 80px;
+	font-weight: 700;
+	margin-bottom: 45px;
+}
+
+.first__descr {
+	font-family: SFCompact;
+	font-size: 14px;
+	max-width: 40%;
+	margin-bottom: 32px;
+}
+
+.first__btn {
+	background-color: var(--orange-color);
+	margin-bottom: 50px;
+	position: relative;
+	z-index: 5;
+
+	transition: background-color 0.1s;
+}
+
+.first__btn:hover {
+	background-color: var(--neptun-color);
+	transition: background-color 0.1s;
+}
+
+.first__bottom {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	width: calc(100% - 32px);
+	display: flex;
+	align-items: flex-end;
+}
+
+.search-form {
+	flex-shrink: 0;
+	width: 68%;
+	position: relative;
+	overflow: hidden;
+	border-top-left-radius: 4px;
+	height: 90px;
+}
+
+.search-form__field {
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	color: var(--darck-color);
+	padding-left: 55px;
+	padding-right: 100px;
+	border: 1px solid rgb(216, 216, 216);
+}
+
+.search-form__button {
+	width: 18px;
+	height: 18px;
+	background-image: url("/img/first/search.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	position: absolute;
+	right: 54px;
+	top: 45%;
+	transform: translateX(-47%);
+}
+
+.slider__list {
+	/* height: 328px;
+	width: 433px; */
+
+	height: auto;
+	width: auto;
+}
+
+.main-slider {
+	position: relative;
+	overflow: hidden;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-size: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.main-slider__media {
+	position: relative;
+	overflow: hidden;
+}
+
+.main-slider__btn {
+	background-image: url("/img/first/play.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 45px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.video {
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.main-slider__text {
+	height: 90px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: var(--neptun-color);
+	text-transform: uppercase;
+	color: var(--white-color);
+	font-weight: 800;
+	font-size: 14px;
+
+	text-align: center;
+	letter-spacing: 2.18182px;
+	z-index: 20;
+}
+
+.btn__list {
+	width: 82%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 10%;
+}
+
+.btn-prev {
+	width: 30px;
+	height: 25px;
+	margin-left: 2%;
+	background-image: url("/img/first/left.svg");
+	background-color: var(--neptun-color);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.btn-next {
+	width: 30px;
+	height: 25px;
+	margin-left: 2%;
+	background-image: url("/img/first/right.svg");
+	background-color: var(--neptun-color);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media (max-height: 1079px) {
+	.first-container {
+		padding: 150px 30px;
+	}
+
+	.first__title {
+		max-width: 45%;
+
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-height: 830px) {
+	.first-container {
+		padding: 160px 30px;
+	}
+
+	.first__title {
+		margin-top: 30px;
+		font-size: 65px;
+	}
+}
+
+@media (max-height: 780px) {
+	.first__title {
+		font-size: 60px;
+		margin-bottom: 30px;
+	}
+
+	.first__descr {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+
+	.first__btn {
+		padding: 25px 40px;
+	}
+}
+
+@media (max-height: 640px) {
+	.first__title {
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+
+	.first__descr {
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+}

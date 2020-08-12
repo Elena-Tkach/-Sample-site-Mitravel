@@ -1,0 +1,50 @@
+.container {
+	max-width: 1600px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.site-container {
+	overflow: hidden;
+}
+
+.flex {
+	display: flex;
+}
+
+.btn-reset {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+
+.btn {
+	font-size: 12px;
+	letter-spacing: 2.18182px;
+	color: var(--white-color);
+	border-radius: 8px;
+	text-transform: uppercase;
+	padding: 30px 82px;
+}
+
+.btn__focus-orange:hover {
+	background-color: var(--orange-color);
+	transition: background-color 0.1s;
+}
+
+.section-title {
+	font-style: 700;
+	font-size: 64px;
+	line-height: 80px;
+
+	color: var(--darck-color);
+}
+
+.section-title--center {
+	text-align: center;
+	max-width: none;
+}
+
+
+
