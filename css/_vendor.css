@@ -3,12 +3,9 @@
     background-color: var(--white-color);
     box-shadow: 0 0 15px rgba(192, 192, 192, 0.5);
     border-radius: 100%;
-    padding: 3.5% 1.5%;
 
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    padding: 2% 2.5%;
+
     color: var(--neptun-color);
 
     margin-bottom: 20px;
@@ -16,7 +13,7 @@
 }
 
 .top:hover {
-    background-color: rgba(19, 109, 112, 0.5);
-    color: var(--white-color);
+    box-shadow: 0 0 15px rgba(19, 109, 112, 0.5);
+
     transition: 0.3s;
 }
